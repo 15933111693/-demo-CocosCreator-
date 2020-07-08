@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "gobang",
+  "id": "b1e8c2b3-ec0e-4a99-91cd-5b0653ecaf77",
+  "version": "2.4.0",
+  "isNew": false
+}
