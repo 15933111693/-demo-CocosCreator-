@@ -50,7 +50,7 @@ export default class TenGrid extends cc.Component {
         const winner = chessborder.checkout(i, j, game.next)
         if(winner != null) {
             const label: cc.Component = cc.find('Canvas/label').getComponent('label')
-            label.render('ending', winner ? '黑' : '白')
+            label.render('ending', winner === 0 ? '黑' : '白')
 
             // 卸载所有grid监听事件
             const childArray = cc.find('Canvas/chessborder/_chessborder').children
